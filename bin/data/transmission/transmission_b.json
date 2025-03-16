@@ -1,0 +1,190 @@
+{
+  "id" : "Transmission_b",
+  "stations" : [ {
+    "id" : "Station_1",
+    "nbChannels" : 8
+  }, {
+    "id" : "Station_2",
+    "nbChannels" : 5
+  }, {
+    "id" : "Station_3",
+    "nbChannels" : 7
+  }, {
+    "id" : "Station_4",
+    "nbChannels" : 5
+  }, {
+    "id" : "Station_5",
+    "nbChannels" : 7
+  } ],
+  "satellites" : [ {
+    "id" : "Satellite_1",
+    "nbTransmissionChannels" : 2,
+    "files" : [ {
+      "id" : "File_0",
+      "size" : 173,
+      "releaseDateTime" : [ 2023, 2, 8, 21, 20 ],
+      "predecessors" : [ ]
+    }, {
+      "id" : "File_1",
+      "size" : 262,
+      "releaseDateTime" : [ 2023, 2, 8, 16, 55 ],
+      "predecessors" : [ ]
+    }, {
+      "id" : "File_2",
+      "size" : 95,
+      "releaseDateTime" : [ 2023, 2, 8, 6, 35 ],
+      "predecessors" : [ ]
+    }, {
+      "id" : "File_3",
+      "size" : 44,
+      "releaseDateTime" : [ 2023, 2, 8, 23, 30 ],
+      "predecessors" : [ "File_0", "File_2" ]
+    }, {
+      "id" : "File_4",
+      "size" : 184,
+      "releaseDateTime" : [ 2023, 2, 8, 19, 58 ],
+      "predecessors" : [ ]
+    }, {
+      "id" : "File_5",
+      "size" : 75,
+      "releaseDateTime" : [ 2023, 2, 8, 23, 51 ],
+      "predecessors" : [ "File_0", "File_3" ]
+    }, {
+      "id" : "File_6",
+      "size" : 41,
+      "releaseDateTime" : [ 2023, 2, 8, 23, 52 ],
+      "predecessors" : [ "File_2", "File_5" ]
+    } ],
+    "transmissionWindows" : [ {
+      "satelliteId" : "Satellite_1",
+      "stationId" : "Station_1",
+      "start" : [ 2023, 2, 8, 18, 16 ],
+      "end" : [ 2023, 2, 8, 23, 8 ]
+    }, {
+      "satelliteId" : "Satellite_1",
+      "stationId" : "Station_3",
+      "start" : [ 2023, 2, 8, 15, 42 ],
+      "end" : [ 2023, 2, 8, 20, 1 ]
+    }, {
+      "satelliteId" : "Satellite_1",
+      "stationId" : "Station_4",
+      "start" : [ 2023, 2, 8, 15, 57 ],
+      "end" : [ 2023, 2, 8, 20, 53 ]
+    }, {
+      "satelliteId" : "Satellite_1",
+      "stationId" : "Station_5",
+      "start" : [ 2023, 2, 8, 22, 6 ],
+      "end" : [ 2023, 2, 9, 1, 33 ]
+    } ]
+  }, {
+    "id" : "Satellite_2",
+    "nbTransmissionChannels" : 7,
+    "files" : [ {
+      "id" : "File_7",
+      "size" : 205,
+      "releaseDateTime" : [ 2023, 2, 8, 12, 45 ],
+      "predecessors" : [ ]
+    }, {
+      "id" : "File_8",
+      "size" : 258,
+      "releaseDateTime" : [ 2023, 2, 8, 23, 6 ],
+      "predecessors" : [ "File_7" ]
+    }, {
+      "id" : "File_9",
+      "size" : 108,
+      "releaseDateTime" : [ 2023, 2, 8, 23, 26 ],
+      "predecessors" : [ "File_8" ]
+    }, {
+      "id" : "File_10",
+      "size" : 117,
+      "releaseDateTime" : [ 2023, 2, 8, 23, 15 ],
+      "predecessors" : [ "File_7", "File_8" ]
+    }, {
+      "id" : "File_11",
+      "size" : 151,
+      "releaseDateTime" : [ 2023, 2, 8, 23, 29 ],
+      "predecessors" : [ "File_8", "File_10" ]
+    }, {
+      "id" : "File_12",
+      "size" : 218,
+      "releaseDateTime" : [ 2023, 2, 8, 23, 38 ],
+      "predecessors" : [ "File_10" ]
+    }, {
+      "id" : "File_13",
+      "size" : 58,
+      "releaseDateTime" : [ 2023, 2, 8, 23, 27 ],
+      "predecessors" : [ "File_7", "File_10" ]
+    }, {
+      "id" : "File_14",
+      "size" : 18,
+      "releaseDateTime" : [ 2023, 2, 8, 23, 55 ],
+      "predecessors" : [ "File_9" ]
+    } ],
+    "transmissionWindows" : [ {
+      "satelliteId" : "Satellite_2",
+      "stationId" : "Station_1",
+      "start" : [ 2023, 2, 8, 18, 51 ],
+      "end" : [ 2023, 2, 8, 23, 48 ]
+    }, {
+      "satelliteId" : "Satellite_2",
+      "stationId" : "Station_2",
+      "start" : [ 2023, 2, 8, 22, 48 ],
+      "end" : [ 2023, 2, 9, 2, 31 ]
+    }, {
+      "satelliteId" : "Satellite_2",
+      "stationId" : "Station_3",
+      "start" : [ 2023, 2, 8, 2, 10 ],
+      "end" : [ 2023, 2, 8, 5, 15 ]
+    }, {
+      "satelliteId" : "Satellite_2",
+      "stationId" : "Station_4",
+      "start" : [ 2023, 2, 8, 10, 58 ],
+      "end" : [ 2023, 2, 8, 13, 59 ]
+    }, {
+      "satelliteId" : "Satellite_2",
+      "stationId" : "Station_5",
+      "start" : [ 2023, 2, 8, 18, 37 ],
+      "end" : [ 2023, 2, 8, 22, 14 ]
+    } ]
+  }, {
+    "id" : "Satellite_3",
+    "nbTransmissionChannels" : 4,
+    "files" : [ {
+      "id" : "File_15",
+      "size" : 286,
+      "releaseDateTime" : [ 2023, 2, 8, 7, 39 ],
+      "predecessors" : [ ]
+    }, {
+      "id" : "File_16",
+      "size" : 104,
+      "releaseDateTime" : [ 2023, 2, 8, 22, 37 ],
+      "predecessors" : [ ]
+    }, {
+      "id" : "File_17",
+      "size" : 184,
+      "releaseDateTime" : [ 2023, 2, 8, 23, 34 ],
+      "predecessors" : [ "File_16" ]
+    }, {
+      "id" : "File_18",
+      "size" : 62,
+      "releaseDateTime" : [ 2023, 2, 8, 17, 2 ],
+      "predecessors" : [ "File_15" ]
+    }, {
+      "id" : "File_19",
+      "size" : 292,
+      "releaseDateTime" : [ 2023, 2, 8, 23, 35 ],
+      "predecessors" : [ "File_17" ]
+    } ],
+    "transmissionWindows" : [ {
+      "satelliteId" : "Satellite_3",
+      "stationId" : "Station_2",
+      "start" : [ 2023, 2, 8, 21, 37 ],
+      "end" : [ 2023, 2, 9, 2, 35 ]
+    }, {
+      "satelliteId" : "Satellite_3",
+      "stationId" : "Station_4",
+      "start" : [ 2023, 2, 8, 6, 36 ],
+      "end" : [ 2023, 2, 8, 10, 47 ]
+    } ]
+  } ]
+}
